@@ -1,0 +1,179 @@
+/* line 3, main.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, main.scss */
+body {
+  background-image: url("winecellar1.png");
+  background-size: cover;
+}
+
+/* line 13, main.scss */
+div.wrapper {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 21, main.scss */
+.register {
+  width: 500px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: #333333 1px 1px 4px 0px, white 0 0 1px inset;
+  -moz-box-shadow: #333333 1px 1px 4px 0px, white 0 0 1px inset;
+  box-shadow: #333333 1px 1px 4px 0px, white 0 0 1px inset;
+  border: 1px solid #000;
+  padding: 30px 0px 60px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 80px;
+  margin-bottom: 70px;
+  text-align: center;
+  padding-bottom: 90px;
+  position: relative;
+}
+/* line 35, main.scss */
+.register div.background {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url("wood_1.png");
+  opacity: 0.7;
+}
+/* line 47, main.scss */
+.register div.login {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  -moz-border-radius-bottomleft: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  bottom: 1px;
+  left: 1px;
+  width: 498px;
+  height: 40px;
+}
+/* line 56, main.scss */
+.register div.login p {
+  padding: 0px 20px;
+  color: #666;
+  margin-top: 11px;
+  font-family: "Raleway", sans-serif;
+}
+/* line 62, main.scss */
+.register div.login p a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 69, main.scss */
+.register img {
+  width: 121px;
+  height: 61px;
+  z-index: 4;
+  cursor: pointer;
+  padding-top: 5px;
+  margin: 0 auto 30px;
+  display: block;
+}
+/* line 79, main.scss */
+.register h1 {
+  text-align: center;
+  font-size: 35px;
+  margin: 0 auto 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 2px;
+}
+/* line 90, main.scss */
+.register input {
+  width: 340px;
+  height: 43px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  -webkit-box-shadow: #444444 1px 1px 3px inset, white 0px 0px 1px;
+  -moz-box-shadow: #444444 1px 1px 3px inset, white 0px 0px 1px;
+  box-shadow: #444444 1px 1px 3px inset, white 0px 0px 1px;
+  background: white;
+  display: block;
+  margin: 0 auto 15px;
+  padding: 0px 20px;
+}
+/* line 102, main.scss */
+.register input::-webkit-input-placeholder {
+  color: #333;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-shadow: #cccccc 0px 1px 0px;
+  font-size: 14px;
+}
+/* line 111, main.scss */
+.register a.login {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffe066), color-stop(100%, #ebbd50));
+  background: -webkit-linear-gradient(center top, #ffe066, #ebbd50);
+  background: -moz-linear-gradient(center top, #ffe066, #ebbd50);
+  background: -o-linear-gradient(center top, #ffe066, #ebbd50);
+  background: linear-gradient(center top, #ffe066, #ebbd50);
+  -webkit-box-shadow: rbga(0, 0, 0, 0.5) 1px 0px 7px;
+  -moz-box-shadow: rbga(0, 0, 0, 0.5) 1px 0px 7px;
+  box-shadow: rbga(0, 0, 0, 0.5) 1px 0px 7px;
+  display: block;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  text-shadow: #444444 0px 1px 1px;
+  width: 378px;
+  padding: 1px;
+  font-weight: 600;
+  height: 31px;
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+
+/* line 130, main.scss */
+ul.footer {
+  display: block;
+  margin: 30px auto;
+  width: 490px;
+}
+/* line 136, main.scss */
+ul.footer li {
+  right: 0;
+  top: 12px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline;
+}
