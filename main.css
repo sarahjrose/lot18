@@ -161,8 +161,9 @@ ul.footer {
   display: block;
   margin: 30px auto;
   width: 490px;
+  padding: 0;
 }
-/* line 136, main.scss */
+/* line 137, main.scss */
 ul.footer li {
   right: 0;
   top: 12px;
